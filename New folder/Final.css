@@ -66,52 +66,6 @@
     left: 58px;
 }
 
-.ds4 .sticks {
-    position: absolute;
-    width: 361px;
-    height: 105px;
-    top: 308px;
-    left: 228px;
-}
-
-.ds4 .stick {
-    position: absolute;
-    background: url(sticks.png);
-    height: 94px;
-    width: 94px;
-}
-
-.ds4 .stick.pressed.left {
-    background-position-x: -96px;
-}
-
-.ds4 .stick.pressed.right {
-    background-position-x: -192px;
-}
-
-.ds4 .stick.left {
-    top: 0;
-    left: 0;
-}
-
-.ds4 .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
-
-.ds4 .dpad {
-    position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 181px;
-    left: 92px;
-}
-
-.ds4 .face {
-    background: url(dpad.png);
-    position: absolute;
-}
-
 .ds4 .face.up, .ds4 .face.down {
     width: 36px;
     height: 52px;
