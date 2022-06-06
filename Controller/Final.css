@@ -57,6 +57,25 @@
     float: right;
     transform: rotateY(180deg);
 }
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 567px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(face.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
